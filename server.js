@@ -102,7 +102,7 @@ client.on('messageCreate', async message => {
 
     interval = setInterval(async () => {
         await channel.send("oh");
-    }, 1000); // 1000 ms = 1 second
+    }, 20000); // 1000 ms = 1 second
 
     isEnabled = true;
 
